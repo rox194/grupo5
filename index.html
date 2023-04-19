@@ -15,16 +15,23 @@
 </head>
 
 <body> 
-    <h1>TECHNOWEB</h1>
-    <h2>Acerca de nosotros</h2>
-    <p>Somos una empresa de programación dedicada a brindar soluciones tecnológicas innovadoras y personalizadas para empresas y organizaciones. Nos enfocamos en desarrollar software y aplicaciones web y móviles para satisfacer las necesidades específicas de nuestros clientes.</p>
-    <h3></h3>
-    <h2>Nuestro equipo</h2>
-    <p>Está formado por programadores y diseñadores altamente capacitados y con experiencia en una amplia variedad de tecnologías y lenguajes de programación. Nos enorgullece brindar un servicio excepcional a nuestros clientes y trabajar en colaboración con ellos para alcanzar sus objetivos empresariales.</p>
+    <header class="encabezado">
+        
+    </header>
 
-    <h2>Cotiza tu proyecto</h2>
+    <section class="all">
 
-    <form class="cotizacion" method="post">
+    <section class="info">
+        <h2>Acerca de nosotros</h2>
+        <p>Somos una empresa de programación dedicada a brindar soluciones tecnológicas innovadoras y personalizadas para empresas y organizaciones. Nos enfocamos en desarrollar software y aplicaciones web y móviles para satisfacer las necesidades específicas de nuestros clientes.</p>
+        <h2>Nuestro equipo</h2>
+        <p>Está formado por programadores y diseñadores altamente capacitados y con experiencia en una amplia variedad de tecnologías y lenguajes de programación. Nos enorgullece brindar un servicio excepcional a nuestros clientes y trabajar en colaboración con ellos para alcanzar sus objetivos empresariales.</p>
+    </section>
+
+    <div>
+        <h3>Cotiza tu proyecto</h3>
+
+        <form class="cotizacion" method="post">
             <p><label for="presupuesto">Presupuesto disponible:</label></p>
             <input type="text" id="presupuesto" name="presupuesto" required>
             <p><label for="text">Tiempo de entrega requerido:</label></p>
@@ -32,20 +39,27 @@
             <p><label for="mensaje">Tipo de Proyecto:</label></p>
             <textarea id="mensaje" name="mensaje" required></textarea>
             <button type="submit"> Enviar</button>
-               
-    </form>
+                   
+        </form>
+    </div>
 
-    <h2>Contactanos</h2>
+    <div>
+        <h3>Contactanos</h3>
 
-    <form class="formdecontacto">
-        <p><label for="nombre">Nombre:</label></p>
-        <input type="text" id="nombre" name="nombre" required>
-        <p><label for="email">Email:</label></p>
-        <input type="email" id="email" name="email" required>
-        <p><label for="mensaje">Mensaje:</label></p>
-        <textarea id="mensaje" name="mensaje" required></textarea>
-        <button type="submit"> Enviar</button> 
-    </form>
+        <form class="formdecontacto">
+            <p><label for="nombre">Nombre:</label></p>
+            <input type="text" id="nombre" name="nombre" required>
+            <p><label for="email">Email:</label></p>
+            <input type="email" id="email" name="email" required>
+            <p><label for="mensaje">Mensaje:</label></p>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit"> Enviar</button> 
+        </form>
+    </div>
+
+    <footer></footer>
+
+    </section>
 
 </body>
 

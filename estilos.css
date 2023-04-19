@@ -10,26 +10,53 @@ body {
 
     text-align: center;
     color: black;
-    background-image: url(img/fondo3.jpg);
-    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    line-height: 1.6;
+}
+
+.encabezado {
+    background-color: white;
+    padding: 10 px;
+    background-image: url(img/TechnOWEB.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+    border-style: solid;
     
 }
 
-.cotizacion {
+.all {
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div{
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.cotizacion, .formdecontacto {
+    padding: 20px;
     width: 100%;
     text-align: center;
+    font-size: 15px;
     color: black;
 }
 
-.formdecontacto {
-    width: 100%;
-    text-align: center;
-    color: black;
-}
 
 .cotizacion input {
+    outline: none;
     width: 20%;
+    padding: 2px;
     display: block;
+    border-radius: 3px;
     margin: auto;
     margin-bottom: 1rem;
     font-size: 1em;
@@ -37,8 +64,11 @@ body {
 }
 
 .formdecontacto input{
-    width: 20%;
+    outline: none;
+    width: 30%;
+    padding: 2px;
     display: block;
+    border-radius: 3px;
     margin: auto;
     margin-bottom: 1rem;
     font-size: 1em;
@@ -46,41 +76,70 @@ body {
 }
 
 .cotizacion textarea{
+    outline: none;
     width: 30%;
+    padding: 3px;
     display: block;
     margin: auto;
     margin-bottom: 1rem;
+    border-radius: 3px;
     font-size: 1em;
     background-color: transparent;
 }
 
 .formdecontacto textarea{
+    outline: none;
     width: 30%;
+    padding: 3px;
     display: block;
     margin: auto;
-    margin-bottom: 1rem;
+    border-radius: 3px;
     font-size: 1em;
     background-color: transparent;
 }
 
 .cotizacion button{
-    margin: auto;
-    border: solid thin white;
+    margin: 1rem;
     padding: .6rem;
-    border-radius: 2rem;
-    background-color: white;
+    border: solid thin white;
+    border-radius: 1rem;
+    background-color: black;
     cursor: pointer;
-    color: black;
+    color: white;
 
 }
 
 .formdecontacto button{
-    margin: auto;
-    border: solid thin white;
+    margin: 1rem;
     padding: .6rem;
-    border-radius: 2rem;
-    background-color: white;
+    border: solid thin white;
+    border-radius: 1rem;
+    background-color: black;
     cursor: pointer;
+    color: white;
+}
+
+h2 {
+    padding: 12px;
+    font-weight: bolder;;
+
+}
+
+h3 {
+    padding: 10px;
+    font-weight: bolder;
+    
+}
+
+p label {;
     color: black;
 
+}
+
+.info p {
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
