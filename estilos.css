@@ -1,0 +1,86 @@
+* { 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+body {
+
+    text-align: center;
+    color: black;
+    background-image: url(img/fondo3.jpg);
+    position: absolute;
+    
+}
+
+.cotizacion {
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.formdecontacto {
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.cotizacion input {
+    width: 20%;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 1em;
+    background-color: transparent;
+}
+
+.formdecontacto input{
+    width: 20%;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 1em;
+    background-color: transparent;
+}
+
+.cotizacion textarea{
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 1em;
+    background-color: transparent;
+}
+
+.formdecontacto textarea{
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 1em;
+    background-color: transparent;
+}
+
+.cotizacion button{
+    margin: auto;
+    border: solid thin white;
+    padding: .6rem;
+    border-radius: 2rem;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+
+}
+
+.formdecontacto button{
+    margin: auto;
+    border: solid thin white;
+    padding: .6rem;
+    border-radius: 2rem;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+
+}
