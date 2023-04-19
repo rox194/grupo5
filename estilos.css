@@ -42,6 +42,19 @@ div{
 
 }
 
+#programadores{
+    text-align: left;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+#cargos{
+    text-align: left;
+    font-size: 15px;
+    font-style: normal;
+}
+
 .cotizacion, .formdecontacto {
     padding: 20px;
     width: 100%;
