@@ -22,7 +22,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 50vh;
+    min-height: 50vh;
     border-style: solid;
     
 }
@@ -121,23 +121,24 @@ div{
 
 h2 {
     padding: 12px;
-    font-weight: bolder;;
-
+    font-weight: bolder;
+    font-size: 30px;
 }
 
 h3 {
     padding: 10px;
     font-weight: bolder;
-    
+    font-size: 20px;
 }
 
-p label {;
+p label {
     color: black;
 
 }
 
 .info p {
     padding: 20px;
+    font-size: 20px;
     text-align: center;
     color: black;
     font-style: italic;
