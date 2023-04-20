@@ -74,23 +74,24 @@
             e.preventDefault(); // Evita que el formulario se envíe
 
             // Obtén los valores del formulario
-            var nombre = document.getElementById("presupuesto").value;
-            var apellido = document.getElementById("tiempo").value;
-            var email = document.getElementById("mensaje").value;
+            var presupuesto = document.getElementById("presupuesto").value;
+            var tiempo = document.getElementById("tiempo").value;
+            var mensaje = document.getElementById("mensaje").value;
             
             // Crea un nuevo objeto jsPDF
             var pdf = new jsPDF();
 
             // Agrega el contenido al PDF
-            pdf.text(20, 20, "Nombre: " + nombre);
-            pdf.text(20, 30, "Apellido: " + apellido);
-            pdf.text(20, 40, "Email: " + email);
+            pdf.text(20, 20, "Presupuesto: " + presupuesto);
+            pdf.text(20, 30, "Tiempo: " + tiempo);
+            pdf.text(20, 40, "Mensaje: " + mensaje);
             
             // Guarda el PDF como un archivo
             pdf.save("cotizacion.pdf");
         });
     </script>
 </body>
+
 
 
     <footer>Argentina Programa 2023 - UTN</footer>
